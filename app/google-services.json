@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "934960783606",
+    "firebase_url": "https://siege-16c11.firebaseio.com",
+    "project_id": "siege-16c11",
+    "storage_bucket": "siege-16c11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934960783606:android:8221a61ee135457f",
+        "android_client_info": {
+          "package_name": "com.aakash.siege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934960783606-o6ecq3p85acshtqn2h8k77fs9lbds4ps.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "934960783606-m7ahld3colkera4r1qp8ebjcnmpc2r22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aakash.siege",
+            "certificate_hash": "1dc07ccb8953c482b9821520a03ac011dfc1bd03"
+          }
+        },
+        {
+          "client_id": "934960783606-ges39utbn4vvqo3bc74u5jfguboqquej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdZtJddhizOw_dDDm0Plzyi4WgSokeZ8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934960783606-o6ecq3p85acshtqn2h8k77fs9lbds4ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

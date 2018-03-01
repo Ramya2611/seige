@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aakash.siege.FragallocateShelter">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/alloLay"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="70dp"
+            android:background="#FF5722"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sheltername"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold"
+                android:textSize="15sp"
+            android:text="Shelter Name: "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sNamed"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Not Allocated"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/sloc"
+                android:textColor="#FAFAFA"
+                android:textSize="15sp"
+                android:text="Shelter Location: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/slocd"
+                android:textColor="#FAFAFA"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:text="Not Allocated"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:textColor="#FAFAFA"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addval"
+                android:textColor="#FAFAFA"
+                android:textSize="15sp"
+                android:layout_marginLeft="80dp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/location"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/locbtn"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/allbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="41dp"
+            android:layout_marginLeft="150dp"
+            android:text="Allocate" />
+
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

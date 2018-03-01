@@ -1,0 +1,14 @@
+mutation AddpeopleMutation($name:String!,$mobno:String!,$email:String!,$pass:String!,$location:String!){
+  addUser(name:$name,mobno:$mobno,email:$email,passwd:$pass,location:$location){
+    mobileno
+    password
+  }
+}
+mutation AddshelterMutation($id:Int!,$name:String!,$location:String!,$address:String!,$landmark:String!,$capacity:Int!,$contact:String!){
+  addShelter(id:$id,sname:$name,slocation:$location,saddress:$address,slandmark:$landmark,scapacity:$capacity,scontact:$contact){
+    id
+    sname
+    slocation
+    scapacity
+  }
+}

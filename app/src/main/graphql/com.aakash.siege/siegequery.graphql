@@ -1,0 +1,45 @@
+query UserQuery($mobno:String!){
+  user(mobno:$mobno){
+    password
+    id
+  }
+}
+query ViewshelterQuery{
+  shelter{
+    id
+    sname
+    slocation
+    saddress
+    slandmark
+    scapacity
+    scontact
+  }
+}
+query GetshelterQuery($id:Int!){
+  shelter(id:$id){
+    id
+    sname
+    slocation
+    saddress
+    slandmark
+    scapacity
+    scontact
+  }
+}
+query SdetailQuery($name:String!){
+  shelter(sname:$name){
+    sname
+    slocation
+    saddress
+    slandmark
+    scapacity
+    scontact
+    smfacility
+    sffacility
+    swfacility
+    user{
+      name
+      mobileno
+    }
+  }
+}

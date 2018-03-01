@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Siege</string>
+    <string-array name="nav_type">
+        <item>All Shelter</item>
+        <item>My Shelter</item>
+        <item>Allocate Shelter</item>
+        <item>logout</item>
+    </string-array>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="action_websearch"></string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is my shelter</string>
+    <string name="hello">This is Allocate Shelter</string>
+</resources>
